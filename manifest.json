@@ -1,0 +1,46 @@
+{
+    "manifest_version": 3,
+    "name": "ForceX",
+    "version": "1.0.0",
+    "description": "Simulate bruteforce with custom configurations.",
+    "action": {
+        "default_popup": "popup/popup.html"
+    },
+    "icons": {
+        "16": "image/forcex_generated_by_gemini.png",
+        "48": "image/forcex_generated_by_gemini.png",
+        "128": "image/forcex_generated_by_gemini.png"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "tabs"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content/content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "image/forcex_generated_by_gemini.png"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ]
+}

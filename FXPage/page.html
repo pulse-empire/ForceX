@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ForceX Bruteforce Scraper</title>
+    <style>
+        /* Reset and Basic Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            line-height: 1.6;
+            background-color: #222;
+            color: #ccc;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            min-height: 100vh;
+            width: 100%;
+            max-width: 700px;
+            position: relative;
+            left:50%;top:0;
+            transform: translateX(-50%);
+        }
+
+        .container {
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            background-color: #333;
+            margin-top: 50px;
+        }
+
+        .form-container {
+            max-width: 100%;
+            width: 100%;
+        }
+
+        .h2 {
+            text-align: center;
+            margin-bottom: 5px; /* Reduced margin */
+            color: #00ff00;
+            font-weight: bold;
+            text-shadow: 0 0 5px #00ff00;
+        }
+
+        .h3{
+          text-align: center;
+          margin-bottom: 25px;
+          color: #00bb00;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #ddd;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #555;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 14px;
+            background-color: #444;
+            color: #eee;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:focus,
+        textarea:focus {
+            border-color: #00ff00;
+            outline: none;
+            box-shadow: 0 0 5px #00ff00;
+        }
+
+        textarea {
+            height: 150px;
+            resize: vertical;
+        }
+
+        button {
+            background-color: #00ff00;
+            color: #222;
+            padding: 14px 25px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            width: 100%;
+            margin-top: 20px;
+            transition: background-color 0.3s, transform 0.2s;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #00aa00;
+            transform: translateY(-2px);
+            box-shadow: 0 0 5px #00aa00;
+        }
+
+        .response-div {
+            max-width: 100%;
+            width: 250px;
+            padding: 20px;
+            border: 1px solid #555;
+            border-radius: 4px;
+            background-color: #222;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .msg {
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #ddd;
+        }
+
+        .password {
+            font-family: 'Courier New', monospace;
+            background-color: #333;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-wrap: break-word;
+            color: #00ff00;
+            font-size: 14px;
+            white-space: pre-wrap;
+        }
+
+        .response-div a{
+          color: #00bbff;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="h2">ForceX Bruteforce Scraper</h2>
+        <h3 class="h3">Crafted by Pulse-Empire on GitHub</h3>
+        <div class="form-container">
+            <div class="form-group">
+                <label for="loginUrl">Login URL:</label>
+                <input type="text" id="loginUrl" value="https://web.facebook.com">
+            </div>
+            <div class="form-group">
+                <label for="ReGex">ReGex Pattern:</label>
+                <input type="text" id="ReGex" value="[a-zA-Z0-9!@#$%^&*()_+~`|}{[\]\:;?><,./-=]{8,20}">
+            </div>
+
+            <div class="form-group">
+                <label for="config">Config Info:</label>
+                <textarea id="config" rows="10" cols="50">
+[selectors]
+email_selector=input[name='email']
+password_selector=input[name='pass']
+
+[values]
+email_selector=melissakerns830@gmail.com
+password_selector={{scrap}}
+                </textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="validationString">Validation String:</label>
+                <input type="text" id="validationString" value="Welcome">
+            </div>
+
+            <div class="form-group">
+                <button id="fillButton">Start Cracking</button>
+            </div>
+        </div>
+    </div>
+    <div class="response-div">
+        <p>If you don't know how to use it you can <a href="https://github.com/pulse-empire/ForceX">click on this link</a> to learn the tutorials.</p>
+        <div class="msg">Waiting for the right password...</div>
+        <div class="password"></div>
+    </div>
+
+    <script src="extension.js"></script>
+</body>
+
+</html>
