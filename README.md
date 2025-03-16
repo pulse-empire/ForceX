@@ -1,14 +1,12 @@
 <p align="center">
-  <img height="120" src="ForceX-screenshot.png">
-  <img height="120" width="120" src="ForceX.png">
-  <img height="120" width="120" src="ForceX2.png">
+  <img height="120" src="forcex_by_gemini.png">
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/version-1.0-green?style=for-the-badge">
-  <img src="https://img.shields.io/github/license/nemesis-guy/ForceX?style=for-the-badge&color=darkgreen">
-  <img src="https://img.shields.io/github/stars/nemesis-guy/ForceX?style=for-the-badge&color=teal">
-  <img src="https://img.shields.io/github/forks/nemesis-guy/ForceX?style=for-the-badge&color=cyan">
-  <img src="https://img.shields.io/github/issues/nemesis-guy/ForceX?style=for-the-badge&color=red">
+  <img src="https://img.shields.io/github/license/pulse-empire/ForceX?style=for-the-badge&color=darkgreen">
+  <img src="https://img.shields.io/github/stars/pulse-empire/ForceX?style=for-the-badge&color=teal">
+  <img src="https://img.shields.io/github/forks/pulse-empire/ForceX?style=for-the-badge&color=cyan">
+  <img src="https://img.shields.io/github/issues/pulse-empire/ForceX?style=for-the-badge&color=red">
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/Author-nemesis--guy-blue?style=flat-square">
@@ -17,14 +15,14 @@
   <img src="https://img.shields.io/badge/Written%20In-Python-darkcyan?style=flat-square">
 </p>
 
-## LAUNCHED ON (4TH AUGUST, 2024) - STABLE RELEASE
+## LAUNCHED ON [March 3, 2025] - STABLE RELEASE
 
 ## ForceX: A Free and Open Source Malware Project for Ethical Research (Spyware, Botnet)
 
 **ForceX** is a free and open-source malware project designed for ethical research and educational purposes. This project aims to provide researchers and security professionals with a powerful tool to understand and analyze the security level of web applications against preset Bruteforce techniques.
 
 ## Guides
-<a href="https://github.com/nemesis-guy/ForceX/blob/main/InstallationGuide.md">
+<a href="https://github.com/pulse-empire/ForceX/blob/main/InstallationGuide.md">
   <img src="https://img.shields.io/badge/HOW_TO_INSTALL-teal?style=for-the-badge&logo=website">
 </a>
 <a href="https://nemesisguy.onrender.com/blog/how_to_hack_anyone_using_spyware.html">
