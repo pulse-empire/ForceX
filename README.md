@@ -26,7 +26,7 @@
   <img src="https://img.shields.io/badge/HOW_TO_INSTALL-teal?style=for-the-badge&logo=website">
 </a>
 <a href="https://nemesisguy.onrender.com/blog/how_to_hack_anyone_using_spyware.html">
-  <img src="https://img.shields.io/badge/DEMONSTRSTION_OF_HOW_TO_USE-teal?style=for-the-badge&logo=website">
+  <img src="https://img.shields.io/badge/DEMONSTRATION_OF_HOW_TO_USE-teal?style=for-the-badge&logo=website">
 </a>
 
 **Disclaimer:**
