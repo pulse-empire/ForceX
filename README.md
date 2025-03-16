@@ -17,7 +17,7 @@
 
 ## LAUNCHED ON [March 3, 2025] - STABLE RELEASE
 
-## ForceX: A Free and Open Source Malware Project for Ethical Research (Spyware, Botnet)
+## ForceX: A Free and Open Source Malware Project for Ethical Research (Bruteforc Analysis)
 
 **ForceX** is a free and open-source malware project designed for ethical research and educational purposes. This project aims to provide researchers and security professionals with a powerful tool to understand and analyze the security level of web applications against preset Bruteforce techniques.
 
