@@ -1,5 +1,5 @@
 <p align="center">
-  <img height="120" src="forcex_by_gemini.png">
+  <img height="120" src="image/forcex_generated_by_gemini.png">
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/version-1.0-green?style=for-the-badge">
