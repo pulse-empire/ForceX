@@ -15,9 +15,7 @@
   <img src="https://img.shields.io/badge/Written%20In-Javascript-darkcyan?style=flat-square">
 </p>
 
-## LAUNCHED ON [March 3, 2025] - STABLE RELEASE
-
-## ForceX: A Free and Open Source Malware Project for Ethical Research (Bruteforc Analysis)
+## ForceX: A Free and Open Source Malware Project for Ethical Research (Bruteforce Analysis)
 
 **ForceX** is a free and open-source malware project designed for ethical research and educational purposes. This project aims to provide researchers and security professionals with a powerful tool to understand and analyze the security level of web applications against preset Bruteforce techniques.
 
@@ -26,7 +24,7 @@
   <img src="https://img.shields.io/badge/HOW_TO_INSTALL-teal?style=for-the-badge&logo=website">
 </a>
 <a href="https://nemesisguy.onrender.com/blog/how_to_hack_anyone_using_spyware.html">
-  <img src="https://img.shields.io/badge/DEMONSTRATION_OF_HOW_TO_USE-teal?style=for-the-badge&logo=website">
+  <img src="https://img.shields.io/badge/HOW_TO_USE-teal?style=for-the-badge&logo=website">
 </a>
 
 **Disclaimer:**
@@ -63,4 +61,5 @@ ForceX is an open-source project, encouraging collaboration and contributions fr
 
 Once again, it is crucial to emphasize that ForceX is intended for ethical and educational purposes only. Any misuse of this project for malicious activities is strictly prohibited and could have legal consequences. The developers of ForceX do not condone or encourage any illegal or unethical use of this software.
 
+**ForceX is licensed under the MIT License.**
 **By using ForceX, you agree to these terms and conditions.**
