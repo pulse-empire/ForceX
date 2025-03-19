@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/Author-nemesis--guy-blue?style=flat-square">
   <img src="https://img.shields.io/badge/Open%20Source-Yes-darkgreen?style=flat-square">
   <img src="https://img.shields.io/badge/Maintained%3F-Yes-lightblue?style=flat-square">
-  <img src="https://img.shields.io/badge/Written%20In-Python-darkcyan?style=flat-square">
+  <img src="https://img.shields.io/badge/Written%20In-Javascript-darkcyan?style=flat-square">
 </p>
 
 ## LAUNCHED ON [March 3, 2025] - STABLE RELEASE
